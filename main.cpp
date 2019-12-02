@@ -13,7 +13,7 @@ using namespace std;
 int main()
 {
     //test case provided by the execise
-    std::string name = "in.png";
+    //std::string name = "in.png";
 
     /* ************************************************
         Two more options suggested,
@@ -21,12 +21,13 @@ int main()
         Please note the output files will have the same name, given the filter is the same.
      ************************************************** */
     
-    //std::string name = "mario.png";
-    //std::string name = "land.png";
+    std::string name = "./test_cases/mario.png";
+    //std::string name = "land.png"; // I chose this pic because its really pretty, though its quite large.
 
     //choose the activity
     green(name);
     //red(name);
     //blue(name);
+    //rotate(name);
 
 }
