@@ -13,6 +13,8 @@ vector
 -
 string_view
 -
+thread
+-
 lodepng.h
 /home/waoty/Documents/clo/poo/practica-calificada-4-cnoche/lodepng.h
 manage_png.hpp

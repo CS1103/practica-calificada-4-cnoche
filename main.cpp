@@ -24,12 +24,9 @@ int main()
     //std::string name = "mario.png";
     //std::string name = "land.png";
 
-    auto t1 = thread(green,name);
-    auto t2 = thread(red,name);
-    auto t3 = thread (blue,name);
-
-    t1.join();
-    t2.join();
-    t3.join();
+    //choose the activity
+    green(name);
+    //red(name);
+    //blue(name);
 
 }
