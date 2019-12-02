@@ -14,5 +14,5 @@ else()
     set(CMAKE_CXX_FLAGS "${CMAKE_CXX_FLAGS} -Wall -Werror -Wpedantic -Wextra")
 endif()
 
-add_executable (pc4 main.cpp lodepng.cpp lodepng.h manage_png.cpp manage_png.hpp img.cpp img.hpp)
+add_executable (pc4 main.cpp lodepng.cpp lodepng.h manage_png.cpp manage_png.hpp img_color.cpp img_color.hpp rotation.cpp rotation.hpp)
 target_link_libraries(pc4 Threads::Threads)

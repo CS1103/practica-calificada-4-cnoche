@@ -6,7 +6,7 @@
 
 #IncludeRegexTransform: 
 
-/home/waoty/Documents/clo/poo/practica-calificada-4-cnoche/img.cpp
+/home/waoty/Documents/clo/poo/practica-calificada-4-cnoche/img_color.cpp
 iostream
 -
 vector
@@ -20,7 +20,7 @@ lodepng.h
 manage_png.hpp
 /home/waoty/Documents/clo/poo/practica-calificada-4-cnoche/manage_png.hpp
 
-/home/waoty/Documents/clo/poo/practica-calificada-4-cnoche/img.hpp
+/home/waoty/Documents/clo/poo/practica-calificada-4-cnoche/img_color.hpp
 string
 -
 
@@ -61,10 +61,12 @@ thread
 -
 lodepng.h
 /home/waoty/Documents/clo/poo/practica-calificada-4-cnoche/lodepng.h
-img.hpp
-/home/waoty/Documents/clo/poo/practica-calificada-4-cnoche/img.hpp
+img_color.hpp
+/home/waoty/Documents/clo/poo/practica-calificada-4-cnoche/img_color.hpp
 manage_png.hpp
 /home/waoty/Documents/clo/poo/practica-calificada-4-cnoche/manage_png.hpp
+rotation.hpp
+/home/waoty/Documents/clo/poo/practica-calificada-4-cnoche/rotation.hpp
 
 /home/waoty/Documents/clo/poo/practica-calificada-4-cnoche/manage_png.cpp
 manage_png.hpp
@@ -83,4 +85,34 @@ string.h
 -
 lodepng.h
 /home/waoty/Documents/clo/poo/practica-calificada-4-cnoche/lodepng.h
+
+/home/waoty/Documents/clo/poo/practica-calificada-4-cnoche/rotation.cpp
+iostream
+-
+cmath
+-
+vector
+-
+string_view
+-
+string
+-
+thread
+-
+manage_png.hpp
+/home/waoty/Documents/clo/poo/practica-calificada-4-cnoche/manage_png.hpp
+
+/home/waoty/Documents/clo/poo/practica-calificada-4-cnoche/rotation.hpp
+iostream
+-
+vector
+-
+string_view
+-
+string
+-
+thread
+-
+manage_png.hpp
+/home/waoty/Documents/clo/poo/practica-calificada-4-cnoche/manage_png.hpp
 

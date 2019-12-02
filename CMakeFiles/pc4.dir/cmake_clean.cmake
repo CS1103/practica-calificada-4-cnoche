@@ -2,7 +2,8 @@ file(REMOVE_RECURSE
   "CMakeFiles/pc4.dir/main.cpp.o"
   "CMakeFiles/pc4.dir/lodepng.cpp.o"
   "CMakeFiles/pc4.dir/manage_png.cpp.o"
-  "CMakeFiles/pc4.dir/img.cpp.o"
+  "CMakeFiles/pc4.dir/img_color.cpp.o"
+  "CMakeFiles/pc4.dir/rotation.cpp.o"
   "pc4.pdb"
   "pc4"
 )

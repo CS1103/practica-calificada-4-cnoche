@@ -123,32 +123,32 @@ pc4/fast:
 	$(MAKE) -f CMakeFiles/pc4.dir/build.make CMakeFiles/pc4.dir/build
 .PHONY : pc4/fast
 
-img.o: img.cpp.o
+img_color.o: img_color.cpp.o
 
-.PHONY : img.o
+.PHONY : img_color.o
 
 # target to build an object file
-img.cpp.o:
-	$(MAKE) -f CMakeFiles/pc4.dir/build.make CMakeFiles/pc4.dir/img.cpp.o
-.PHONY : img.cpp.o
+img_color.cpp.o:
+	$(MAKE) -f CMakeFiles/pc4.dir/build.make CMakeFiles/pc4.dir/img_color.cpp.o
+.PHONY : img_color.cpp.o
 
-img.i: img.cpp.i
+img_color.i: img_color.cpp.i
 
-.PHONY : img.i
+.PHONY : img_color.i
 
 # target to preprocess a source file
-img.cpp.i:
-	$(MAKE) -f CMakeFiles/pc4.dir/build.make CMakeFiles/pc4.dir/img.cpp.i
-.PHONY : img.cpp.i
+img_color.cpp.i:
+	$(MAKE) -f CMakeFiles/pc4.dir/build.make CMakeFiles/pc4.dir/img_color.cpp.i
+.PHONY : img_color.cpp.i
 
-img.s: img.cpp.s
+img_color.s: img_color.cpp.s
 
-.PHONY : img.s
+.PHONY : img_color.s
 
 # target to generate assembly for a file
-img.cpp.s:
-	$(MAKE) -f CMakeFiles/pc4.dir/build.make CMakeFiles/pc4.dir/img.cpp.s
-.PHONY : img.cpp.s
+img_color.cpp.s:
+	$(MAKE) -f CMakeFiles/pc4.dir/build.make CMakeFiles/pc4.dir/img_color.cpp.s
+.PHONY : img_color.cpp.s
 
 lodepng.o: lodepng.cpp.o
 
@@ -231,6 +231,33 @@ manage_png.cpp.s:
 	$(MAKE) -f CMakeFiles/pc4.dir/build.make CMakeFiles/pc4.dir/manage_png.cpp.s
 .PHONY : manage_png.cpp.s
 
+rotation.o: rotation.cpp.o
+
+.PHONY : rotation.o
+
+# target to build an object file
+rotation.cpp.o:
+	$(MAKE) -f CMakeFiles/pc4.dir/build.make CMakeFiles/pc4.dir/rotation.cpp.o
+.PHONY : rotation.cpp.o
+
+rotation.i: rotation.cpp.i
+
+.PHONY : rotation.i
+
+# target to preprocess a source file
+rotation.cpp.i:
+	$(MAKE) -f CMakeFiles/pc4.dir/build.make CMakeFiles/pc4.dir/rotation.cpp.i
+.PHONY : rotation.cpp.i
+
+rotation.s: rotation.cpp.s
+
+.PHONY : rotation.s
+
+# target to generate assembly for a file
+rotation.cpp.s:
+	$(MAKE) -f CMakeFiles/pc4.dir/build.make CMakeFiles/pc4.dir/rotation.cpp.s
+.PHONY : rotation.cpp.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -240,9 +267,9 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... pc4"
 	@echo "... edit_cache"
-	@echo "... img.o"
-	@echo "... img.i"
-	@echo "... img.s"
+	@echo "... img_color.o"
+	@echo "... img_color.i"
+	@echo "... img_color.s"
 	@echo "... lodepng.o"
 	@echo "... lodepng.i"
 	@echo "... lodepng.s"
@@ -252,6 +279,9 @@ help:
 	@echo "... manage_png.o"
 	@echo "... manage_png.i"
 	@echo "... manage_png.s"
+	@echo "... rotation.o"
+	@echo "... rotation.i"
+	@echo "... rotation.s"
 .PHONY : help
 
 

@@ -129,28 +129,52 @@ CMakeFiles/pc4.dir/manage_png.cpp.o.provides: CMakeFiles/pc4.dir/manage_png.cpp.
 CMakeFiles/pc4.dir/manage_png.cpp.o.provides.build: CMakeFiles/pc4.dir/manage_png.cpp.o
 
 
-CMakeFiles/pc4.dir/img.cpp.o: CMakeFiles/pc4.dir/flags.make
-CMakeFiles/pc4.dir/img.cpp.o: img.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/waoty/Documents/clo/poo/practica-calificada-4-cnoche/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/pc4.dir/img.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/pc4.dir/img.cpp.o -c /home/waoty/Documents/clo/poo/practica-calificada-4-cnoche/img.cpp
+CMakeFiles/pc4.dir/img_color.cpp.o: CMakeFiles/pc4.dir/flags.make
+CMakeFiles/pc4.dir/img_color.cpp.o: img_color.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/waoty/Documents/clo/poo/practica-calificada-4-cnoche/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/pc4.dir/img_color.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/pc4.dir/img_color.cpp.o -c /home/waoty/Documents/clo/poo/practica-calificada-4-cnoche/img_color.cpp
 
-CMakeFiles/pc4.dir/img.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/pc4.dir/img.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/waoty/Documents/clo/poo/practica-calificada-4-cnoche/img.cpp > CMakeFiles/pc4.dir/img.cpp.i
+CMakeFiles/pc4.dir/img_color.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/pc4.dir/img_color.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/waoty/Documents/clo/poo/practica-calificada-4-cnoche/img_color.cpp > CMakeFiles/pc4.dir/img_color.cpp.i
 
-CMakeFiles/pc4.dir/img.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/pc4.dir/img.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/waoty/Documents/clo/poo/practica-calificada-4-cnoche/img.cpp -o CMakeFiles/pc4.dir/img.cpp.s
+CMakeFiles/pc4.dir/img_color.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/pc4.dir/img_color.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/waoty/Documents/clo/poo/practica-calificada-4-cnoche/img_color.cpp -o CMakeFiles/pc4.dir/img_color.cpp.s
 
-CMakeFiles/pc4.dir/img.cpp.o.requires:
+CMakeFiles/pc4.dir/img_color.cpp.o.requires:
 
-.PHONY : CMakeFiles/pc4.dir/img.cpp.o.requires
+.PHONY : CMakeFiles/pc4.dir/img_color.cpp.o.requires
 
-CMakeFiles/pc4.dir/img.cpp.o.provides: CMakeFiles/pc4.dir/img.cpp.o.requires
-	$(MAKE) -f CMakeFiles/pc4.dir/build.make CMakeFiles/pc4.dir/img.cpp.o.provides.build
-.PHONY : CMakeFiles/pc4.dir/img.cpp.o.provides
+CMakeFiles/pc4.dir/img_color.cpp.o.provides: CMakeFiles/pc4.dir/img_color.cpp.o.requires
+	$(MAKE) -f CMakeFiles/pc4.dir/build.make CMakeFiles/pc4.dir/img_color.cpp.o.provides.build
+.PHONY : CMakeFiles/pc4.dir/img_color.cpp.o.provides
 
-CMakeFiles/pc4.dir/img.cpp.o.provides.build: CMakeFiles/pc4.dir/img.cpp.o
+CMakeFiles/pc4.dir/img_color.cpp.o.provides.build: CMakeFiles/pc4.dir/img_color.cpp.o
+
+
+CMakeFiles/pc4.dir/rotation.cpp.o: CMakeFiles/pc4.dir/flags.make
+CMakeFiles/pc4.dir/rotation.cpp.o: rotation.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/waoty/Documents/clo/poo/practica-calificada-4-cnoche/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/pc4.dir/rotation.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/pc4.dir/rotation.cpp.o -c /home/waoty/Documents/clo/poo/practica-calificada-4-cnoche/rotation.cpp
+
+CMakeFiles/pc4.dir/rotation.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/pc4.dir/rotation.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/waoty/Documents/clo/poo/practica-calificada-4-cnoche/rotation.cpp > CMakeFiles/pc4.dir/rotation.cpp.i
+
+CMakeFiles/pc4.dir/rotation.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/pc4.dir/rotation.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/waoty/Documents/clo/poo/practica-calificada-4-cnoche/rotation.cpp -o CMakeFiles/pc4.dir/rotation.cpp.s
+
+CMakeFiles/pc4.dir/rotation.cpp.o.requires:
+
+.PHONY : CMakeFiles/pc4.dir/rotation.cpp.o.requires
+
+CMakeFiles/pc4.dir/rotation.cpp.o.provides: CMakeFiles/pc4.dir/rotation.cpp.o.requires
+	$(MAKE) -f CMakeFiles/pc4.dir/build.make CMakeFiles/pc4.dir/rotation.cpp.o.provides.build
+.PHONY : CMakeFiles/pc4.dir/rotation.cpp.o.provides
+
+CMakeFiles/pc4.dir/rotation.cpp.o.provides.build: CMakeFiles/pc4.dir/rotation.cpp.o
 
 
 # Object files for target pc4
@@ -158,7 +182,8 @@ pc4_OBJECTS = \
 "CMakeFiles/pc4.dir/main.cpp.o" \
 "CMakeFiles/pc4.dir/lodepng.cpp.o" \
 "CMakeFiles/pc4.dir/manage_png.cpp.o" \
-"CMakeFiles/pc4.dir/img.cpp.o"
+"CMakeFiles/pc4.dir/img_color.cpp.o" \
+"CMakeFiles/pc4.dir/rotation.cpp.o"
 
 # External object files for target pc4
 pc4_EXTERNAL_OBJECTS =
@@ -166,10 +191,11 @@ pc4_EXTERNAL_OBJECTS =
 pc4: CMakeFiles/pc4.dir/main.cpp.o
 pc4: CMakeFiles/pc4.dir/lodepng.cpp.o
 pc4: CMakeFiles/pc4.dir/manage_png.cpp.o
-pc4: CMakeFiles/pc4.dir/img.cpp.o
+pc4: CMakeFiles/pc4.dir/img_color.cpp.o
+pc4: CMakeFiles/pc4.dir/rotation.cpp.o
 pc4: CMakeFiles/pc4.dir/build.make
 pc4: CMakeFiles/pc4.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/waoty/Documents/clo/poo/practica-calificada-4-cnoche/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Linking CXX executable pc4"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/waoty/Documents/clo/poo/practica-calificada-4-cnoche/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Linking CXX executable pc4"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/pc4.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -180,7 +206,8 @@ CMakeFiles/pc4.dir/build: pc4
 CMakeFiles/pc4.dir/requires: CMakeFiles/pc4.dir/main.cpp.o.requires
 CMakeFiles/pc4.dir/requires: CMakeFiles/pc4.dir/lodepng.cpp.o.requires
 CMakeFiles/pc4.dir/requires: CMakeFiles/pc4.dir/manage_png.cpp.o.requires
-CMakeFiles/pc4.dir/requires: CMakeFiles/pc4.dir/img.cpp.o.requires
+CMakeFiles/pc4.dir/requires: CMakeFiles/pc4.dir/img_color.cpp.o.requires
+CMakeFiles/pc4.dir/requires: CMakeFiles/pc4.dir/rotation.cpp.o.requires
 
 .PHONY : CMakeFiles/pc4.dir/requires
 
