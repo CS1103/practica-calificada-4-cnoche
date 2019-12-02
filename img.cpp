@@ -24,7 +24,7 @@ void red(std::string name){
             std::cout << b << " ";
             std::cout << a << "|";
         }
-            encode("red_filter.png", image, w, h);
+            encode("./outimages/red_filter.png", image, w, h);
     }
 }
 
@@ -45,7 +45,7 @@ void blue(std::string name){
             std::cout << b << " ";
             std::cout << a << "|";
         }
-        encode("blue_filter.png", image, w, h);
+        encode("./outimages/blue_filter.png", image, w, h);
     }
 }
 
@@ -66,7 +66,7 @@ void green(std::string name){
             std::cout << b << " ";
             std::cout << a << "|";
         }
-            encode("green_filter.png", image, w, h);
+            encode("./outimages/green_filter.png", image, w, h);
     }
 }
 
