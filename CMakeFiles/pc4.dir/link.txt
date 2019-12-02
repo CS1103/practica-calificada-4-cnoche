@@ -1,0 +1,1 @@
+/usr/bin/c++   -Wall -Werror -Wpedantic -Wextra   CMakeFiles/pc4.dir/main.cpp.o CMakeFiles/pc4.dir/lodepng.cpp.o CMakeFiles/pc4.dir/manage_png.cpp.o CMakeFiles/pc4.dir/img.cpp.o  -o pc4 

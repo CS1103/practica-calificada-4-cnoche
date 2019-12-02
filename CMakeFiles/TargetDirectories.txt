@@ -1,0 +1,3 @@
+/home/waoty/Documents/clo/poo/practica-calificada-4-cnoche/CMakeFiles/rebuild_cache.dir
+/home/waoty/Documents/clo/poo/practica-calificada-4-cnoche/CMakeFiles/pc4.dir
+/home/waoty/Documents/clo/poo/practica-calificada-4-cnoche/CMakeFiles/edit_cache.dir
